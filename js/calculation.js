@@ -1,4 +1,5 @@
-// Triangle Value
+// Triangle Value function
+
 document.getElementById('btn-triangle').addEventListener('click',function(){
   const triangleValueType = 'Triangle';
     const triangleValueOfB = getInputFieldValueById('triangle-field-b');
@@ -15,7 +16,8 @@ document.getElementById('btn-triangle').addEventListener('click',function(){
    
 })
 
-// Rectangle Value
+// Rectangle Value function
+
 document.getElementById('btn-rectangle').addEventListener('click',function(){
   const rectangleValueType = 'Rectangle';
     const rectangleValueOfW = getInputFieldValueById('rectangle-field-w');
@@ -29,7 +31,9 @@ document.getElementById('btn-rectangle').addEventListener('click',function(){
     document.getElementById('rectangle-field-w').value = "";
   document.getElementById('rectangle-field-i').value = "";
 })
-// Parallelogram value
+
+// Parallelogram value function
+
 document.getElementById('btn-parallelogram').addEventListener('click',function(){
   const parallelogramValueType = 'Parallelogram';
     const parallelogramValueOfB = getInputFieldValueById('parallelogram-field-b');
@@ -43,7 +47,9 @@ document.getElementById('btn-parallelogram').addEventListener('click',function()
     document.getElementById('parallelogram-field-b').value = "";
   document.getElementById('parallelogram-field-h').value = "";
 })
-// Rhombus value
+
+// Rhombus value function
+
 document.getElementById('btn-rhombus').addEventListener('click',function(){
   const rhombusValueType = 'Rhombus';
     const rhombusValueOfDOne = getInputFieldValueById('rhombus-field-d-four');
@@ -57,7 +63,9 @@ document.getElementById('btn-rhombus').addEventListener('click',function(){
     document.getElementById('rhombus-field-d-four').value = "";
   document.getElementById('rhombus-field-d-five').value = "";
 })
-// Pentagon value
+
+// Pentagon value function
+
 document.getElementById('btn-pentagon').addEventListener('click',function(){
   const pentagonValueType = 'Pentagon';
     const pentagonValueOfP = getInputFieldValueById('pentagon-field-p');
@@ -72,7 +80,9 @@ document.getElementById('btn-pentagon').addEventListener('click',function(){
     document.getElementById('pentagon-field-p').value = "";
   document.getElementById('pentagon-field-b').value = "";
 })
-// Ellipse value
+
+// Ellipse value function
+
 document.getElementById('btn-ellipse').addEventListener('click',function(){
   const ellipseValueType = 'Ellipse';
     const ellipseValueOfA = getInputFieldValueById('ellipse-field-a');
