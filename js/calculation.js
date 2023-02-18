@@ -46,16 +46,16 @@ document.getElementById('btn-parallelogram').addEventListener('click',function()
 // Rhombus value
 document.getElementById('btn-rhombus').addEventListener('click',function(){
   const rhombusValueType = 'Rhombus';
-    const rhombusValueOfDOne = getInputFieldValueById('rhombus-field-d-one');
-    const rhombusValueOfDTwo = getInputFieldValueById('rhombus-field-d-two');
+    const rhombusValueOfDOne = getInputFieldValueById('rhombus-field-d-four');
+    const rhombusValueOfDTwo = getInputFieldValueById('rhombus-field-d-five');
     if(rhombusValueOfDOne  && rhombusValueOfDTwo){    
       const rhombusValue = (0.5 * rhombusValueOfDOne * rhombusValueOfDTwo).toFixed(2);
       const rhombusResult = countFunction(rhombusValueType, rhombusValue);  
       document.getElementById('btn-rhombus').disabled = true;
       return;
     }
-    document.getElementById('rhombus-field-d-one').value = "";
-  document.getElementById('rhombus-field-d-two').value = "";
+    document.getElementById('rhombus-field-d-four').value = "";
+  document.getElementById('rhombus-field-d-five').value = "";
 })
 // Pentagon value
 document.getElementById('btn-pentagon').addEventListener('click',function(){
