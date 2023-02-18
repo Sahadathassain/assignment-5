@@ -5,7 +5,7 @@ document.getElementById('blog-btn').addEventListener('click',function(){
 })
 
 
-// input Field Value
+// input Field Value function
 
 function getInputFieldValueById(inputFieldId) {
   const inputField = document.getElementById(inputFieldId);
@@ -23,7 +23,7 @@ function getInputFieldValueById(inputFieldId) {
 }
 
 
-// content value add
+// content value add table
 
 let count = 0;
 function countFunction(countName, countFun) {
